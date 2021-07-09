@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
+   
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="jquery-3.5.1.slim.min.js"></script>
+</head>
+<body>
+    <!--header-->
+    
+    <div class="container-fluid fixed-top"  >
+        <div class="row " id="heder">
+          
+            <div class="col-md-4 ">
+                <img  class="logo" src="logo.jpg" alt="" style="width: 150px; height: 100px;"  >
+            </div>
+            <!--navbar-->
+            <div class="col-md-6 navbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Séjour en Tunisie</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Hotels dans le monde <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Circuits</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Proms
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Promos Hotels</a>
+                            <a class="dropdown-item" href="#">Gratuités enfants</a>
+                            <a class="dropdown-item" href="#">Spéciales de mois</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+            <!--end navbar-->
+
+            <div class=" content col-md-2" >
+              <div><img src="tél.jpg" alt="" style="width: 30px; height: 30px;"></div>
+              <div><p>71-123-456</p></div>
+
+            </div>
+          
+        </div>
+    </div>
+
+<!--end header-->
+    
+    
+    <!--caroussel-->
+    <div class="container-fluid" id="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imag1.jpeg" class="d-block w-100" alt="..." style="height: 300px;">
+        </div>
+        <div class="carousel-item">
+          <img src="imag2.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+        </div>
+        <div class="carousel-item">
+          <img src="imag3.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!--nos meilleurs hotels en tunisie-->
+  <div class="container" id="card">
+    <div class="row">
+      <div class="col-md-8 offset-md-3"><H1>Nos meilleurs hotels en tunisie</H1></div>
+      <div class="col-md-4">
+        <div class="card-deck" >
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" >
+          <img src="imag4.jpg" class="card-img-top " alt="..." style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: brown;">FINCCI FLORRA PARK</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">À partir de 63 DT</small>
+          </div>
+          
+          <button  id="button" type="button" class="btn btn-warning "><a href="offre.html">Voir l'offre</a></button>
+  
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-deck" >
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded" >
+            <img src="imag5.jpg" class="card-img-top " alt="..." style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: brown;">FINCCI FLORRA PARK</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">À partir de 63 DT</small>
+            </div>
+            
+            <button  id="button" type="button" class="btn btn-warning "><a href="offre.html">Voir l'offre</a></button>
+         
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-deck" >
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded" >
+            <img src="imag6.jpg" class="card-img-top " alt="..." style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: brown;">FINCCI FLORRA PARK</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">À partir de 63 DT</small>
+            </div>
+           
+            <button  id="button" type="button" class="btn btn-warning "><a href="offre.html">Voir l'offre</a></button>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--forfait voyages-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-4"> <h1> Forfaits voyages</h1></div>
+      <div class=" cd col-md-6">
+        <div class="card mb-3  shadow-lg p-3 mb-5 bg-white rounded" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img src="imag8.jpg" alt="..." style="width: 200px; height: 300px;"> 
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Istanbul Turquie</h5>
+                <p class="card-text">Vol + Transfert + Hotel3* <br> <br>7j/6N à Istanbul</p>
+                <p class="card-text"><small class="text-muted">à partir <br>1500DT</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" cd col-md-6">
+        <div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img src="imag9.jpg" alt="..." style="width: 200px; height: 300px;">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Chypre, Grèce</h5>
+                <p class="card-text">Vol + transfert + hotel3* <br> <br> 7j/7N à Grèce</p>
+                <p class="card-text"><small class="text-muted">À partir de <br> 3500DT</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+       <!--destination-->
+       <div class="container">
+         <div class="row col-md-6 offset-md-3"> 
+            <h2>vous pouvez découvrir la météo pour <br>garantir un bon voyage </h2>
+        </div>
+        <div class="row col-md-6 offset-md-3">   
+          <div class="input">
+            <input type="text" class="inputValue" placeholder="enter city">
+            <input type="submit" value="Submit"  class="button">
+          </div>
+        </div>
+        <div class="row col-md-6 offset-md-3">
+           <div class="display">
+          <h1 class="nom"></h1>
+          <p class="desc"></p>
+          <p class="temp"></p>
+        </div>
+      </div>
+  
+
+   
+  </div>
+  <!--footer-->
+  <div class="container" id="fina">
+    <div class="row">
+      <div class="col-md-2">
+          <img src="logo.jpg" alt="" style="width: 300px; height: 80px;">
+      </div>
+      <div class="col-md-8 offset-md-2">
+        <p>Traveltodo, votre Agence de Voyage en Tunisie en Ligne vous propose des Promotions sur vos Voyages et Séjours 
+           en Tunisie et dans le Monde avec les Meilleurs Prix et Services.</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      <h3>Je souhaite recevoir des offres par email</h3><br>
+      <form  name="f" action="#" method="POST">
+        
+       
+        <input type="email"   id="mail" name="mail" placeholder="votre adresse mail">
+        <input    onclick="return verif()" type="submit" value="s'inscrire" style="background-color: chocolate;">
+       
+      </form>
+      </div>
+      <div class="col-md-4">
+       <h3>Suivez-nous</h3><br>
+       <a href="https://twitter.com/traveltodo?lang=fr">
+          <img src="cart_files/twitter(1).png" alt="">
+       </a>
+       <a href="https://www.facebook.com/Traveltodo-219467948648693/"> <img src="facebook.png" alt=""></a>
+       <a href=""> <img src="cart_files/instagram(1).png" alt=""></a>
+       <a href=""> <img src="cart_files/linkedin.png" alt=""></a>
+       <a href=""> <img src="cart_files/youtube.png" alt=""></a>
+      </div>
+      <div class="col-md-4">
+        <h3>Paiement sécurisé</h3><br>
+        <img src="cart_files/card.png" alt="">
+      </div>
+    </div>
+    
+    <div class="row" id="fin">
+      <div class="col-md-3">
+          <p class="p1">Nos produits</p><br>
+          <a href=""><p>Hôtels Tunisie</p></a>
+          <a href=""><p>Circuit Tunisie</p></a>
+          <a href=""><p>TraveltodoHouses</p></a>
+          <a href=""><p>Coffret Cadeau</p></a>
+          <a href=""><p>E-Ticket</p></a>
+          <a href=""><p>Réveillon Tunisie</p></a>
+          <a href=""><p>Saint Valentin Tunisie</p></a>
+          <a href=""><p>Vente Flash</p></a>
+          <a href=""><p>Voitures</p></a>
+          <a href=""><p>Spécial Foot</p></a>
+      </div>
+      <div class="col-md-3">
+        <p class="p1"> Nos hôtels</p><br>
+        <a href=""><p>Hôtels Tunis</p></a>
+        <a href=""><p>Hôtels Tabarka</p></a>
+        <a href=""><p>Hôtels Hammamet</p></a>
+        <a href=""><p>Hôtels Sousse</p></a>
+        <a href=""><p>Hôtels Monastir</p></a>
+        <a href=""><p>Hôtels Mahdia</p></a>
+        <a href=""><p>Hôtels Djerba</p></a>
+        <a href=""><p>Hôtels Tozeur</p></a>
+        <a href=""><p>Hôtels Recommandés</p></a>
+        <a href=""><p>Hôtels dans le Monde</p></a>
+      </div>
+      <div class="col-md-3">
+         <p class="p1">Nos promos</p><br>
+         <a href=""><p>Promo du Mois</p></a>
+         <a href=""><p>Last minute</p></a>
+         <a href=""><p>Promos Ramadan</p></a>
+         <a href=""><p>Promos Aid</p></a>
+         <a href=""><p>Spéciales Vacances</p></a>
+         <a href=""><p>Early Booking</p></a>
+         <a href=""><p>Gratuités Enfants</p></a>
+      </div>
+      <div class="col-md-3">
+        <p class="p1">Nos vacances par thème</p><br>
+        <a href=""><p>Luxe et prestige</p></a>
+        <a href=""><p>Séjour petit Budget</p></a>
+        <a href=""><p>Concerts et Festivales</p></a>
+        <a href=""><p>Voyages de noce</p></a>
+        <a href=""><p>Séjours d'exception</p></a>
+        <a href=""><p>Voyages Petits Budgets</p></a>
+        <a href=""><p>Voyages Sans Visa</p></a>
+      </div>
+
+    </div>
+  </div>
+     
+     
+  
+
+    
+    <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+   <script src="index.js"></script>
+    
+   
+    
+</body>
+</html>

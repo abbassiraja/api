@@ -1,0 +1,72 @@
+#heder{
+    background-color: whitesmoke;
+}
+
+
+.content{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+#carousel {
+    margin-top: 100px;
+}
+#card{
+    margin-top:40px ;
+}
+#button{
+    width: 150px;
+}
+.card-deck{
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.4s linear;
+}
+.card-deck:hover{
+box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.card img{
+    transition: 0.3s;
+}
+.card-deck.active .card img{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.card button{
+    float: left;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.card button:hover{
+    transform: scale(0.9);
+    background: #e21802;
+}
+.cd{
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.4s linear;
+}
+.cd:hover{
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.container{
+    margin-top: 30px;
+}
+h3{
+    color: hsl(36, 100%, 50%);
+}
+#fin{
+    margin-top: 20px;
+}
+.p1{
+    font-size: 20px;
+}
+p{
+    color: black;
+}
+#fina{
+    background-color: whitesmoke;
+}
